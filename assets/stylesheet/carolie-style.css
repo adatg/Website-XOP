@@ -1,0 +1,62 @@
+body {
+	font-family: 'Arrial Narrow', sans-serif;
+	color: #666666;
+}
+
+ul {
+	display: inline-flex;
+	list-style: none;
+	padding-left: 0;
+
+}
+
+.container {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+a.active {
+	color: #BFC409;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.menu a {
+	margin-right: 10px;
+}
+
+.green {
+	color: #BFC409;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.carolie-logo {
+	margin-left: 80px;
+}
+
+.home-menu ul{
+	display: block;
+
+}
+
+.home-menu a {
+	color: #BFC409;
+}
+
+#carolie-home p {
+	line-height: 0.5;
+}
+
+#carolie-home .container {
+	margin-left: 140px;
+}
