@@ -10,9 +10,6 @@
 }
 
 
-
-
-
 .slant {
     -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
     -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
@@ -163,12 +160,12 @@ p, a {
 
 /*GENERAL SITE STYLE*/
 .logo-container {
-	margin-left: 39px;
+	margin-left: 81px;
+    margin-bottom: 37px;
 } 
 
 .logo-container img {
-	width: 202.3px;
-	height: 109.06px;
+	width: 150px;
 }
 
 .container {
@@ -178,8 +175,8 @@ p, a {
 
 .menu {
 	margin-left: 189px;;
-	margin-bottom: 85px;
-	margin-top: -10PX;
+	margin-bottom: 70px;
+	margin-top: -10px;
 	text-transform: uppercase;
 }
 
