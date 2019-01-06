@@ -28,6 +28,7 @@
   <meta name="theme-color" content="#ffffff">
   <!-- STYLE -->
   <link rel="stylesheet" href="assets/stylesheet/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body id="profile">
@@ -46,14 +47,14 @@
     </ul>
   </div>    
   <div class="container">
-    <img src="xop_icons/title_profile.png" width="161" height="75">
+    <img src="xop_icons/title_profile.png" width="161" height="75" style="margin-bottom: 40px">
 
-    <ul class="directory">
+    <!-- <ul class="directory">
       <li><a target="_self" href="#company">COMPANY</a></li>
       <li><a target="_self" href="#services">SERVICES</a></li> 
       <li><a target="_self" href="#history">HISTORY</a></li> 
       <li><a target="_self" href="#people">PEOPLE</a></li>
-    </ul>
+    </ul> -->
 
     <div id="company" class="company">
       <h3 style="margin-left: -72px;"><span class="bold orange">COMPANY  </span>| DESCRIPTION</h3>
@@ -69,7 +70,7 @@
 
         <li>XØ:p provides development, leasing and management services to industrial and commercial clients and partners for buildings that serve the cultural community and creative  industries. </li>
 
-        <li>XØ:p produces and presents performing, visual and literary arts projects and educational programs at The Old American Can Factory complex in Gowanus Brooklyn. There, X? offers an array of uncommon indoor and outdoor spaces for site-specific work, and can provide artistic, technical and logistical support.</li>
+        <li>XØ:p produces and presents performing, visual and literary arts projects and educational programs at The Old American Can Factory complex in Gowanus Brooklyn. There, XØ:p offers an array of uncommon indoor and outdoor spaces for site-specific work, and can provide artistic, technical and logistical support.</li>
       </ul>
     </div>
 
@@ -150,10 +151,14 @@
 
       <li class="italic">Please note that formatting attributes, icons and images may be interpreted visually by your computer and monitor differently than intended.</li>
 
-      <li>© 1987:2018 <span class="bold">XØ PROJECTS INC</span> ALL RIGHTS RESERVED</li>
+      <li>© <script type="text/javascript">
+        document.write("1987 : "+ new Date().getFullYear());
+        </script> <span class="bold">XØ PROJECTS INC</span> ALL RIGHTS RESERVED</li>
     </ul>
   </div>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up fa-2x"></i></button>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
 
