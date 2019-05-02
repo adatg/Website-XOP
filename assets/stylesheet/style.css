@@ -9,6 +9,15 @@
     src: url(../assets/fonts/eb-garamond/EBGaramond12-Italic.ttf);
 }
 
+* {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+body {
+	font-size: 1.15em;
+}
+
 
 .slant {
     -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
@@ -36,13 +45,14 @@ ul {
 ul li {
 	display: block;
 	line-height: 1.5;
-	font-size: 15px;
+	font-size: 1em;
 	
 }
 
 p, a, h2, h3, li {
 	/*font-family: "Verdana";*/
-	font-family: "Arial Narrow", Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.5;
 }
 
  h2 {
@@ -72,22 +82,23 @@ p, a, h2, h3, li {
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 1em;
 	text-transform: uppercase;
 }
 
 p, li, h3 {
 	color: #808080;
+	font-size: 1em;
+	font-weight: 300;
 }
 
-p, a {
-	line-height: 1.5;
-	font-size: 16px;
+h3 { 
+	font-weight: 400;
 }
 
-.bold {
+/* .bold {
 	font-weight: bold;
-}
+} */
 
 .italic {
 	font-style: italic;
@@ -135,10 +146,10 @@ p, a {
 }
 
 .top {
-	margin: 40px 0;
+	/* margin: 40px 0; */
 	line-height: 1.5;
-    font-size: 11px;
-    color: #808080;
+	color: #808080;
+	font-weight: 400;
 }
 
 .inline {
@@ -154,9 +165,9 @@ p, a {
 	border: 3px solid black;
 }
 
-.margin-thirty {
+/* .margin-thirty {
 	margin: 30px 0;
-}
+} */
 
 /*GENERAL SITE STYLE*/
 #myBtn {
@@ -177,7 +188,7 @@ p, a {
 
 .logo-container {
 	margin-left: 81px;
-    margin-bottom: 37px;
+    /* margin-bottom: 37px; */
 } 
 
 .logo-container img {
@@ -191,7 +202,7 @@ p, a {
 
 .menu {
 	margin-left: 189px;;
-	margin-bottom: 45px;
+	/* margin-bottom: 45px; */
 	margin-top: -10px;
 	text-transform: uppercase;
 }
@@ -205,8 +216,7 @@ p, a {
 }
 
 .menu li {
-	font-size: 11px;
-    font-weight: 600;
+	font-size: 1em;
     color: #A6A6A6;
     display: inline;
     
@@ -224,18 +234,21 @@ p, a {
 
 .menu li a {
 	color: #808080;
-	font-size: 17px;
-    font-weight: 600;
+	font-size: 1em;
+    font-weight: 400;
     margin: 0 3px;
 }
 
 .directory {
-	margin: 40px 0;
+	/* margin: 40px 0; */
+	margin-bottom: 0;
+	margin-top: 0.3em;
 	text-transform: uppercase;
 }
 .directory li {
 	margin-right: 10px;
 	display: inline;
+	font-weight: 400;
 }
 
 .directory li:after {
@@ -254,7 +267,7 @@ p, a {
 
 .photo-title {
 	margin-top: -25px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 /*GRID LAYOUT*/
@@ -291,8 +304,8 @@ p, a {
 
 .item p {
 	max-width: 80%;
-	line-height: 1;
-	margin-bottom: -10px;
+	line-height: 1.5;
+	/* margin-bottom: -10px; */
 }
 
 #architecture .item p {
@@ -311,7 +324,6 @@ p, a {
 	text-decoration: none;
 	font-weight: bold;
 }
-
 
 /*HOME PAGE*/
 
@@ -371,13 +383,15 @@ p, a {
 }
 
 .contact-info {
-    margin-bottom: 40px;
-    margin-top: -9px;
+	/* margin-bottom: 40px; */
+	margin-bottom: 0.5em;
+    /* margin-top: -9px; */
 }
 
 .contact-info p {
 	line-height: 1.5;
-	margin-bottom: -10px;
+	font-weight: 400;
+	/* margin-bottom: -10px; */
 }
 
 .location ul li, .transit ul li, .driving ul li, .parking ul li, .access ul li, .history ul li, .services ul li, .projects ul li, .people ul li, .arts ul li, .communication ul li {
@@ -387,26 +401,26 @@ p, a {
 }
 
 .address {
-	margin-top: 40px;
+	/* margin-top: 40px; */
 }
 
 .address p {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 .location {
-	margin-top: 50px;
+	/* margin-top: 50px; */
 }
 
 .location p {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 .transit ul {
-	margin-top: 30px;
+	/* margin-top: 30px; */
 }
 #contact ul li p, #architecture ul li p {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 .driving li, .transit li {
@@ -414,7 +428,7 @@ p, a {
 }
 
 .parking p, .access h3 {
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 /*PROFILE*/
@@ -429,7 +443,7 @@ p, a {
 }
 
 .company {
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 }
 
 /*CURRENT*/
@@ -445,7 +459,7 @@ p, a {
 /*PROJECTS*/
 
 .projects li a {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .projects {
@@ -476,7 +490,7 @@ p, a {
 }
 
 .communication img, .products img {
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 }
 
 
@@ -543,8 +557,8 @@ p, a {
 }
 
 .arts p, .education p, .finance p {
-	margin-bottom: 40px;
-	margin-top: 20px;
+	/* margin-bottom: 40px;
+	margin-top: 20px; */
 }
 
 #community h3 {
@@ -565,9 +579,9 @@ p, a {
     text-transform: none;
 }
 
-.directory-container {
+/* .directory-container {
 	margin: 40px 0;
-}
+} */
 
 #calendar-img {
 	position: relative; 
@@ -576,7 +590,7 @@ p, a {
 }
 
 .space-bottom {
-    margin-bottom: 40px !important;
+    margin-bottom: 33px !important;
 }
 
 /*COMMUNITY - PROJECTS*/
