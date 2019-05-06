@@ -1,0 +1,10 @@
+{
+  "short_name": "XOp Inc",
+  "name": "XO Projects Inc",
+  "icons": [{}
+  ],
+  "start_url": "/xoprojects/?source=pwa",
+  "background_color": "#fff",
+  "display": "browser",
+  "scope": "/xoprojects/"
+}

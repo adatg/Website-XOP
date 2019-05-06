@@ -1,0 +1,12 @@
+{
+    "name": "XO Projects Inc",
+    "short_name": "XOp Inc",
+    "background_color": "#fff",
+    "start_url": "/",
+    "display": "browser",
+    "icons": [{
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }]
+}

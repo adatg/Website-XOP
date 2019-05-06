@@ -4,17 +4,26 @@
 
 body {
    margin-left: 2.71em;
-   margin-top: 2.71em;
+   margin-top: 4em;
    font-size: 1.15em;
 }
 
 p {
    font-family: 'Oswald', sans-serif;
    font-size: 1em;
+   letter-spacing: -0.3px;
 }
 
 .bold-text {
    font-weight: 500;
+}
+
+.light-text {
+   font-weight: 300;
+}
+
+.orange-text {
+   color: #ff7a33;
 }
 
 img {
@@ -49,6 +58,7 @@ img {
 .info-wrapper p {
    text-transform: uppercase;
    text-align: justify;
+   font-weight: 400;
 }
 
 .container, .info-wrapper {
@@ -57,9 +67,10 @@ img {
    margin: 0;
 }
 
-.text-body {
+.text-body p {
    color: #ff7a33;
    font-weight: 300;
+   margin-bottom: 1em;
 }
 
 @media all and (max-width: 760px) {
